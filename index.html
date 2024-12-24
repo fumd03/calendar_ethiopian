@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethiopian Calendar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Ethiopian Calendar</h1>
+        <button id="themeToggle" class="btn">Toggle Theme</button>
+      </header>
+
+      <div class="calendar">
+        <div class="date-container">
+          <div class="ethiopian-date">
+            <h2>Ethiopian Date</h2>
+            <p id="ethiopianDate"></p>
+          </div>
+          <div class="gregorian-date">
+            <h2>Gregorian Date</h2>
+            <p id="gregorianDate"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="event-manager">
+        <h2>Manage Events</h2>
+        <input type="text" id="eventInput" placeholder="Add an event" />
+        <button id="addEvent" class="btn">Add Event</button>
+        <ul id="eventList"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
